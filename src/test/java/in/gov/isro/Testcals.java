@@ -30,5 +30,12 @@ public class Testcals {
 		int result = calc.subtract(10,5);
 		assertEquals(5, result);
 	}
+	@Test
+	public void testDivide()
+	{
+		Calculator calc= new Calculator();
+		int result = calc.divide(10,5);
+		assertEquals(2, result);
+	}
 
 }
